@@ -7,6 +7,7 @@ trigger:
 # 👇 Environment variables created for Chromatic
 variables:
   - group: chromatic-keys
+  
 
 # Other configurations
 
