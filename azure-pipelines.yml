@@ -42,4 +42,4 @@ stages:
             displayName: Publish to Chromatic
             inputs:
               # 👇 Runs Chromatic
-              script: npx chromatic --project-token=248c9d138d9d
+              script: npx chromatic --project-token=$(CLIENT_TOKEN)
